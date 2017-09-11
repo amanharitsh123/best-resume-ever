@@ -1,85 +1,65 @@
 /* eslint-disable */
 export const PERSON = {
-  name: {
-    first: 'John',
-    last: 'Doe',
-  },
-  position: 'Software Developer',
-  birth: {
-    year: 1990,
-    location: 'New York'
-  },
-  experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+    name: {
+        first: 'Man Parvesh',
+        last: 'Singh Randhawa',
     },
-    {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremly important tasks.'
+    position: 'Software Engineer',
+    birth: {
+        year: 1994,
+        location: 'Pathankot, India'
     },
-    {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+    experience: [{
+        company: 'Works Applications',
+        position: 'Software Engineer, Global R&D division',
+        timeperiod: 'since October 2016',
+        description: 'Programming'
+    }, {
+        company: 'Company B',
+        position: 'Frontend Developer',
+        timeperiod: 'January 2015 - December 2015',
+        description: 'Fulfillment of extremly important tasks.'
+    }, {
+        company: 'Company C',
+        position: 'Trainee',
+        timeperiod: 'March 2014 - December 2014',
+        description: 'Making coffee and baking cookies.'
+    }],
+    education: [{
+        degree: 'Bachelor of Technoogy',
+        timeperiod: 'July 2012 - June 2016',
+        description: 'Major in Civil Engineering, Indian Institute of Technoogy, Guwahati, India.'
+    }],
+    // skill level goes 0 to 100
+    skills: [{
+        name: 'Java',
+        level: '80'
+    }, {
+        name: 'C++',
+        level: '85'
+    }, {
+        name: 'C',
+        level: '70'
+    }, {
+        name: 'Python',
+        level: '75'
+    }, {
+        name: 'HTML5',
+        level: '70'
+    }, {
+        name: 'CSS3',
+        level: '70'
+    }, {
+        name: 'JavaScript',
+        level: '70'
+    }],
+    skillDescription: 'Also proficient in Golang etc.',
+    contact: {
+        email: 'manparveshsr@gmail.com',
+        phone: '+65 8224 0161',
+        street: '50K Faber Heights, #01-74, Faber Crest',
+        city: 'Singapore',
+        website: 'manparvesh.com',
+        github: 'manparvesh'
     }
-  ],
-  education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
-    },
-    {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
-    }
-  ],
-  // skill level goes 0 to 100
-  skills: [{
-      name: 'HTML5',
-      level: '99'
-    },
-    {
-      name: 'CSS3',
-      level: '95'
-    },
-    {
-      name: 'JavaScript',
-      level: '97'
-    },
-    {
-      name: 'Node.js',
-      level: '93'
-    },
-    {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
-      level: '80'
-    },
-    {
-      name: 'ES.Next',
-      level: '70'
-    },
-    {
-      name: 'Docker',
-      level: '99'
-    }
-  ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
-  contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
-  }
 };
